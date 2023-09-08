@@ -17,7 +17,7 @@ public class Switch1 {
         }
         */
         
-        int day = 9;
+        int day = 1;
         switch (day){
             case 1:
                 System.out.println("Monday");
