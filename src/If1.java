@@ -7,7 +7,6 @@ public class If1 {
                 statements  // true   // false
             }
         */
-        
         //determining if a number is positive and negative
         // number < 0 
         
