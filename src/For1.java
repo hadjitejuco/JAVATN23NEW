@@ -1,4 +1,5 @@
 //simple for loop
+//https://github.com/hadjitejuco/JAVATN23NEW
 public class For1 {
     public static void main(String[] args) {
           //   1         2      4
