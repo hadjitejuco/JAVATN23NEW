@@ -11,6 +11,7 @@ public class Array2 {
         a[2] = 3;
         a[3] = 4;
         a[4] = 5;
+        System.out.println("value of array[0]: "+a[0]);
         for (int i = 0; i < 5; i++) {
             sum = sum+a[i];
         }
