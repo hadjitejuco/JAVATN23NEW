@@ -1,6 +1,6 @@
 //https://github.com/hadjitejuco/JAVATN23NEW
 //MASTER Branch -> SRC Folder
-
+// program to use constructor
 public class Student {
     //create variable
     String name;
