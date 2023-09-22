@@ -1,11 +1,16 @@
 //https://github.com/hadjitejuco/JAVATN23NEW
-//MASTER Branch -> SRC Folder
+//MASTER Branch -> SRC Folder               Person
 /*
-    Ask to input Name, age 
-    Try to update Name
+    Ask to input Name, age                  -name: String
+    Try to update Name                      -age: int
 
-    private -> hidden 
-*/
+    private -> hidden                       Person(String name, int age)
+                                            getName()
+                                            setName(String name)      
+                                            getAge()
+                                            setAge(int age)            
+
+*/                                          
 import java.util.Scanner;
 
 public class Person {
