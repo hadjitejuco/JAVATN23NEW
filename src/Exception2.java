@@ -19,7 +19,7 @@ public class Exception2 {
         
         }
         catch(ArithmeticException e){
-            System.out.println("Divsion by Zero, Arithmetic Exception");
+            System.out.println("Divsion by Zero, Arithmetic Exception" +e);
         
         }
     }
