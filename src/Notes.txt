@@ -1,0 +1,14 @@
+Syntax
+
+try {
+   // code that may raise an exception
+} catch (ExceptionType1 e1) {
+   // catch block
+} catch (ExceptionType2 e2) {
+   // catch block
+} finally {
+   // code to be executed
+}
+
+
+
