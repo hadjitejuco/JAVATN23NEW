@@ -1,24 +1,26 @@
 
 import java.util.Scanner;
 public class Test {
-    public static void main(String[] args) {
-        //ternary operator
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter a grade: ");
-        int grade = input.nextInt();   
-        //"pass" or "fail"
-        //String result = (grade>70) ? "pass" : "fail";     
-        String result;
-        if (grade > 70){
-           //result = "pass";
-           System.out.println("The grade value is pass");
-        }else{
-            //result = "fail";
-            System.out.println("The grade value is fail");
-        }
-        //System.out.println("The grade value is "+result);
-        
-       
-    }
+    public static void main(String args[ ]) 
+	{
+		try 
+		{
+			int a = args.length;
+			System.out.println("a = " + a);
+			int b = 10 / a;
+			int c[ ] = { 1 };
+			c[10] = 100;
+		} 
+		catch(ArithmeticException e) 
+		{
+			System.out.println("Divide by 0: " + e);
+		} 
+		catch(ArrayIndexOutOfBoundsException e) 
+		{
+			System.out.println("Array index oob: " + e);
+		}
+		System.out.println("After try/catch blocks.");
+	}
+
   
 }
