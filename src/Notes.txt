@@ -13,6 +13,7 @@ try {
 
 
 create a program that in java applying exception handling, throws 
+Class name -> ExerException
 
 Accepts the score as input.
 Validates the score to ensure it's between 0 and 100.
