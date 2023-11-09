@@ -1,26 +1,25 @@
 
 import java.util.Scanner;
 public class Test {
-    public static void main(String args[ ]) 
+   static void subroutine() 
 	{
-		try 
-		{
-			int a = args.length;
-			System.out.println("a = " + a);
-			int b = 10 / a;
-			int c[ ] = { 1 };
-			c[10] = 100;
-		} 
-		catch(ArithmeticException e) 
-		{
-			System.out.println("Divide by 0: " + e);
-		} 
-		catch(ArrayIndexOutOfBoundsException e) 
-		{
-			System.out.println("Array index oob: " + e);
-		}
-		System.out.println("After try/catch blocks.");
+		int d = 0;
+		int a = 10 / d;
 	}
+	
+	public static void main(String args[ ]) 
+	{
+		Test.subroutine();
+	}
+    
+//    public static void main(String args[ ]) 
+//	{
+//		int  d = 0;
+//		int  a = 10 / d;
+//		// here JVM automatiically handle exaception
+//	}
+
+
 
   
 }
