@@ -37,3 +37,57 @@ Error for score 110: Score must be between 0 and 100
 Error for score -5: Score must be between 0 and 100
 
 
+
+
+System.out
+System.in
+System.err.println (send output to standard error stream)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
