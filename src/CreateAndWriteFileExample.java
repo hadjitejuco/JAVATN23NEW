@@ -15,7 +15,7 @@ public class CreateAndWriteFileExample {
             FileWriter writter = new FileWriter(myFile, true);
             
             //Write character
-            writter.write('A');
+            writter.write('C');
             
             writter.close();
             
