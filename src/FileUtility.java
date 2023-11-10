@@ -9,6 +9,7 @@ public class FileUtility {
              BufferedWriter bw = new BufferedWriter(fw)) {
             bw.write(content);
             bw.newLine();
+            bw.flush();
         } catch (IOException e) {
             System.out.println("An error occurred while writing to the file.");
         }

@@ -85,16 +85,28 @@ Exit
 
 
 
+Reminders
+SA3 NOV 15
+SA4 NOV 17
+SUB FINAL PROJECt NOV 23 (PROGRAM + TEMPLATE DOCS) SS / Discussion about the GAMES + RULES
+Presentation NOV 24
 
 
+Create a Java game program that use all the topics we covered (MAX 3 members)
 
 
+Conditions
+loops
+Arrays
+
+Collections
+Filehandling
 
 
-
-
-
-
+Create Video DEMO 
+    Present Class
+    FINAL LAB MP + FINAL LAB EXAM
+    
 
 
 
