@@ -66,6 +66,15 @@ System.err.println (send output to standard error stream)
 
 
 
+MENU
+
+Create account
+Deposit
+Withdraw
+Check Balance
+Print Transaction
+Exit
+
 
 
 
