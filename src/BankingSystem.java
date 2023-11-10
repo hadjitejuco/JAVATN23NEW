@@ -1,5 +1,6 @@
 
 import java.util.Scanner;
+
 public class BankingSystem {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -61,7 +62,7 @@ public class BankingSystem {
                     System.out.println("Current Balance "+ account.getBalance());
                     break;
                 case 5:
-                    FileUtility.readToFile();
+                    FileUtility.readFromFile();
                     break;
                 case 6:
                     System.out.println("Bye");

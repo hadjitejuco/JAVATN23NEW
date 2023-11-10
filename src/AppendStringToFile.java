@@ -3,6 +3,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
+//    private static final String FILE_NAME = "/Users/hadjitejuco/NetBeansProjects/TN23/src/bankaccount.txt";
 
 
 public class AppendStringToFile {
