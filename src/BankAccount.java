@@ -12,7 +12,7 @@ public class BankAccount {
     }
     
     //deposit
-    public void deposit(double amount){
+    public void deposit(double amount)    {
         if (amount > 0)
            balance += amount;
     }
